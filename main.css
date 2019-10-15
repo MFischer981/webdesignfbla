@@ -1,0 +1,541 @@
+html {
+    box-sizing: border-box;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav a {
+    top: 0;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    float: left;
+    font-size: 22px;
+    padding: 25.5px 8px;
+}
+
+nav a#logo {
+    padding: 0 20px 0 0;
+}
+
+nav a img {
+    height: 80px;
+    float: left;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    z-index: 101;
+    height: 125px;
+    padding: 20px 40px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    display: block;
+    padding: 300px 0 100px; 
+    background: url("https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1434&q=80");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header#skyfi {
+    padding: 100px 0; 
+
+}
+
+header#entertainment {
+    padding: 100px 0; 
+    background: url("https://images.unsplash.com/photo-1535470142785-2b2f3ce24e5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.background-text {
+    position: absolute;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    color: rgba(255, 255, 255);
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+}
+
+
+header .container {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header .container .hero_textbox {
+    display: block;
+    background: white;
+    padding: 40px 20px;
+    max-width: 600px;
+}
+
+header .container .hero_textbox h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(37, 121, 255);
+    margin: 0;
+    font-size: 36px;
+    line-height: 1em;
+}
+
+header .container .hero_textbox h2 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    background: rgb(37, 121, 255);
+    padding: 8px 16px;
+    color: white;
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1em;
+    border-radius: 4px;
+}
+
+header .container .hero_textbox p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 20px 0 0;
+    font-size: 28px;
+    line-height: 1.4em;
+    border-radius: 4px;
+    color: rgb(22, 22, 22);
+}
+
+section {
+    display: block;
+    padding: 80px 0 40px; 
+    background: linear-gradient(to bottom, transparent, white), url("https://images.unsplash.com/photo-1480504612934-8170966f69e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll, fixed;
+}
+
+
+section .container {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px 0;
+}
+
+section .container h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(22, 22, 22);
+    margin: 0;
+    font-size: 36px;
+    line-height: 1em;
+}
+
+section .container h2 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    background: rgb(37, 121, 255);
+    padding: 8px 16px;
+    color: white;
+    margin: 80px 0 10px;
+    font-size: 20px;
+    line-height: 1em;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+section .container p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 20px 0 0;
+    font-size: 28px;
+    line-height: 1.4em;
+    border-radius: 4px;
+    color: rgb(22, 22, 22);
+}
+
+section .container a {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    background: rgb(37, 121, 255);
+    border: 2px rgb(150, 191, 255) solid;
+    padding: 14px 32px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 0;
+    font-size: 20px;
+    line-height: 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0; 
+    background: white;
+    background-position: center;
+    background-size: cover;
+    max-width: 1400px;
+    margin: 0 auto 60px;
+}
+
+article .container {
+    display: block;
+    margin: 20px;
+    padding: 240px 20px 40px;
+}
+
+.container#airport {
+    background: linear-gradient(to top, rgb(22, 22, 22), rgb(22, 22, 22, .25)), url("https://images.unsplash.com/photo-1561131668-f63504fc549d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1339&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.container#comfort {
+    background: linear-gradient(to top, rgb(22, 22, 22), rgb(22, 22, 22, .25)), url("https://images.unsplash.com/photo-1487119998088-a65531a3ae5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.container#food {
+    background: linear-gradient(to top, rgb(22, 22, 22), rgb(22, 22, 22, .25)), url("https://images.unsplash.com/photo-1567778744680-eb44ae7aa09b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.container#skyfi {
+    background: linear-gradient(to top, rgb(22, 22, 22), rgb(22, 22, 22, .25)), url("https://images.unsplash.com/photo-1512499639435-ca992b59f3c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80");
+    background-position: top center;
+    background-size: cover;
+}
+
+
+article .container h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    color: white;
+    margin: 0 0 10px;
+    font-size: 28px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+article .container p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 20px 0 0;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: white;
+    max-width: 600px;
+}
+
+article .container a.quick_link {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    background: transparent;
+    border: 2px white solid;
+    padding: 14px 32px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 0;
+    font-size: 18px;
+    line-height: 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.vacations {
+    display: block;
+    padding: 20px 0; 
+    background: linear-gradient(rgba(21, 39, 68, .75), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1558794788-ccf026a85305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+    background-position: center;
+    background-attachment: scroll, fixed;
+    background-size: cover;
+}
+
+.vacations h1 {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+.vacations a {
+    padding: 18px 38px;
+    display: inline-block;
+    margin: 20px 0 60px;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: rgb(37, 121, 255);
+    border: 2px rgb(150, 191, 255) solid;
+    text-decoration: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vacations .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.container .destination {
+    display: block;
+    background: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+.container .destination .image {
+    background: url("https://images.unsplash.com/photo-1558473056-fa7c9214ef51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.container .destination .image#vegas {
+    background: url("https://images.unsplash.com/photo-1506804886640-20a2c0857946?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.container .destination .image#la {
+    background: url("https://images.unsplash.com/photo-1429554429301-1c7d5ae2d42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.container .destination .text-container {
+    display: block;
+    background: white;
+    margin:  -100px 20px 20px;
+    padding: 20px;
+}
+
+.container .destination .text-container h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(37, 121, 255);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 28px;
+    line-height: 1em;
+}
+
+.container .destination .text-container p {
+        font-family: acumin-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: inline-block;
+        margin: 20px 0 0;
+        font-size: 18px;
+        line-height: 1.4em;
+        color: rgb(22, 22, 22);
+}
+
+.container .destination .text-container a {
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-block;
+        background: rgb(37, 121, 255);
+        border: 2px rgb(150, 191, 255) solid;
+        padding: 12px 24px;
+        color: rgb(255, 255, 255);
+        margin: 20px 0 0;
+        font-size: 14px;
+        line-height: 1em;
+        border-radius: 4px;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+.places {
+    display: block;
+    margin: 0 auto 80px;
+    max-width: 1600px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2)
+}
+
+.places .destination {
+    display: block;
+    float: left;
+    min-height: 600px;
+    padding: 80px 20px 80px;
+    width: 20%;
+    transition-duration: .2s;
+    overflow: hidden;
+}
+
+.places .destination#arizona {
+    background: linear-gradient(to top, rgba(21, 39, 68, .5), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1558472964-be7065dcfab9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.places .destination#nevada {
+    background: linear-gradient(to top, rgba(21, 39, 68, .5), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1534219066561-ae20285bd59e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1436&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.places .destination#colorado {
+    background: linear-gradient(to top, rgba(21, 39, 68, .5), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1508446760803-1afec7c2b6fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.places .destination#newmex {
+    background: linear-gradient(to top, rgba(21, 39, 68, .5), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1562705859-72842cf88fd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.places .destination#cali {
+    background: linear-gradient(to top, rgba(21, 39, 68, .5), rgb(21, 39, 68)), url("https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.places:hover .destination {
+    width: 10%;
+}
+
+.places .destination:hover {
+    width: 60%;
+}
+
+.places .destination h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    writing-mode: vertical-rl;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    display: block;
+    float: left;
+    height: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.places .destination a {
+    display: block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: white;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    text-decoration: none;
+    transition: .4s;
+    border-top: 1px white solid;
+    padding: 10px 0;
+}
+
+.places .destination a small {
+    display: block;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1em;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.places .destination:hover a {
+    opacity: 1;
+}
+
+.places .destination a::after {
+    content:"\A";
+}
+
+.places .destination h1 span {
+    font-weight: 400;
+} 
+
+.clear-fix {
+    clear: both;
+}
+
+@media (max-width: 960px) {
+    .places .destination {
+        width: 100%;
+    }
+
+    .places:hover .destination {
+        width: 100%;
+    }
+    
+    .places .destination:hover {
+        width: 100%;
+    }
+    
+    .vacations .container {
+        grid-template-columns: 1fr;
+    }
+}
